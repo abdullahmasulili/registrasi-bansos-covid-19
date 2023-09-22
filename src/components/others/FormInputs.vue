@@ -43,5 +43,10 @@ const fileModel = computed({
     v-model="fileModel"
     :variant="variant"
   />
-  <v-select v-if="type === 'enum'" :label="label" :variant="variant" />
+  <v-select
+    v-if="type === 'enum'"
+    :label="label"
+    :variant="variant"
+    :items="items"
+  />
 </template>

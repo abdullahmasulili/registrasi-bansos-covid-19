@@ -3,5 +3,5 @@
 </template>
 
 <script setup>
-import GetStarted from "@/components/Home/GetStarted.vue";
+import GetStarted from "@/components/home/GetStarted.vue";
 </script>
